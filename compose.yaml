@@ -1,0 +1,18 @@
+services:
+  web1:
+    image: examen:22700678
+    container_name: examen-web1
+    ports:
+      - "8081:80"
+
+  web2:
+    image: examen:22700678
+    container_name: examen-web2
+    ports:
+      - "8082:80"
+
+  web3:
+    image: examen:22700678
+    container_name: examen-web3
+    ports:
+      - "8083:80"
